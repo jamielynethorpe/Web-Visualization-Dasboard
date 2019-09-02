@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <style>
+         img{ width: auto;
+         height: auto;
+         max-width: 100%;
+         max-height: 100%;}
+      </style>
+      <meta charset="UTF-8">
+      <title>comparision</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style.css">
+      <link href="EXstylesheet.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+	   
+      <div class="navigation"style="margin-bottom: 20px">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light col-xl-12">
+            <a class="navbar-brand" href="Landing_final.html">Latitude </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>	
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                     <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="Temperature.html">Max Temperature</a>
+                           <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                           <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                           <a class="dropdown-item" href="Windspeed.html">Wind-speed</a>
+<!--                           <div class="dropdown-divider"></div>-->
+                        </div>
+					 </div>
+                </div>  
+
+				    <div class="col-md-2">  
+                    <form>
+                       <input class="MyButton1" type="button" value="Comparison" onclick="window.location.href='comparison.html'" />       
+                    </form>
+                </div> 
+
+                <div class="col-md-2">
+                      <form>
+                            <input class="MyButton2" type="button" value="data" onclick="window.location.href='data.html'" />       
+                      </form>
+     
+                </div>
+        </div>
+     </div>
+<br>
+		  
+		  
+		   <main class="comparison_container">
+			   <br>
+				<h1 style="position:absolute;left:20%;color:rgb(182, 39, 106)"></h1>
+				<br>
+                <header>
+					 <h1 style="color:darkcyan;position:absolute;top:110px;left:20px"><strong>Comparison: Lattitude vs. X</strong></h1>
+<!--                    <h1> <strong>Comparison: Lattitude vs. X</strong></h1>-->
+                </header>
+			   
+                <p>&nbsp &nbsp &nbsp &nbsp Click any plot to get an in-depth analysis</p>
+			   
+			    <div class="row">
+					       <div class="col-sm-6 col-md-6">
+							   
+			 <a href="Temperature.html"><figure class="comparison_figure" style="margin:20px;margin-left: 20%">
+                 <figcaption style="text-align: center;font-size: 150%">vs. Max Temperature</figcaption>
+                 <img src="CityLat_temp.png" alt="Max Temperature" >
+             </figure></a>    
+            </div>
+							   
+		 <div class="col-sm-6 col-md-6">
+                           <a href="Cloudiness.html"><figure class="comparison_figure" style="margin:20px;margin-left: 20%">
+                            <figcaption style="text-align: center;font-size: 150%">vs. Cloudiness</figcaption>
+                           <img src="Lat_Cloudiness.png".png" alt="latitude_cloudiness" >
+                                  </figure></a>
+                    </div>
+            </div>					   
+							   
+				 <div class="row">
+				 			 <div class="col-sm-6 col-md-6">
+							  <a href="Humidity.html"><figure class="comparison_figure" style="margin-bottom:30%;margin-left: 20%">
+                            <figcaption style="text-align: center;font-size: 150%">vs. Humidity</figcaption>
+                           <img src="Lat_Humidity.png" alt="latitude_humidity" >
+                                </figure></a>
+                    </div>					   
+							   
+			<div class="col-sm-6 col-md-6">
+                            <a href="Windspeed.html"><figure class="comparison_figure" style="margin-bottom:30%;margin-left: 20%;">
+                              <figcaption style="text-align: center;font-size: 150%">vs. Wind-speed</figcaption>
+                                <img src="lat_windspeed.png" alt="latitude_wind-speed" >
+                             </figure></a>
+                    </div>
+            </div>
+        </main>				   
+							   
+							   							   
+							   
+							   
+
+</body>
+</html>

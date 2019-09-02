@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/****************BACGROUND COLOR FOR THE BODY************/
+
+body{
+
+    background-color: #F0EAEA; 
+
+}
+
+/**********************FORMATTING FOT THE NAVIGATION BAR************/
+
+.navbar{
+
+    max-height: 60px; 
+
+}
+
+
+
+/*********FORMATTING FOR THE LEFT TOP LOGO (LATTITUDE)*******************/
+
+.navigation .navbar-brand{
+
+    color: white; 
+
+    margin-left: 30px; 
+
+    padding: inherit; 
+
+    font-weight: bold; 
+
+    background-color: #0BADA6;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+.navbar{
+
+    background-color: white; 
+
+    font-size: 15px; 	
+
+}
+
+
+
+
+
+.active, .dropdown-menu .dropdown-item:active a:hover{
+
+    background-color:#EEE9E9!important; 
+
+}
+
+.dropdown-item{
+
+    color: #6D8092 !important; 
+
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+
+    background-color:#EEE9E9 !important; 
+
+}
+
+a{
+
+    color: #6D8092;
+
+    font-size: 15px; 
+
+}
+
+.nav-link:hover{
+
+    background-color:#E7E7E7 !important;
+
+   }
+
+
+
+.navbar-brand:hover{
+
+color: #B9B7B7 !important;
+
+}
+
+/************************************FORMATTING FOR THE IIMAGES ON THE RIGHT FRAME***********/
+
+img{
+
+    width:100% !important;
+
+    height:100% !important;
+
+}
+
+.active, .panel:hover{
+
+    border-color:#0BADA6;
+
+    border-style: solid; 
+
+/************************IMAGES FOR THE LEFT FRAME**************/
+
+}
+
+.purpose{
+
+    width:50% !important;
+
+    height:50% !important;
+
+}
+
+
+
+/*********************HEADER CLASS*******************/
+
+.header{
+
+    color: #0BADA6;  
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-weight: bolder; 
+
+    padding-top: 25px; 
+
+}
+
+/*********************PARAPGRAPHS***********************/
+
+p{
+
+ color: #6D8092;
+
+ font-family: Arial, Helvetica, sans-serif;
+
+ font-size: 17px; 
+
+}
+
+/* Box Class */
+
+.box {
+
+    margin-top: 60px; 
+
+    margin-bottom: 62px; 
+
+    padding: 10px 20px 15px; 
+
+    color:black;
+
+    background-color: white; 
+
+
+
+  }
+
+/* Table */
+
+  .table{
+
+    font-size: 15px; 
+
+    border-top-color: white !important; 
+
+}
+
+
+
+
+
+/****************************************FOOTER INFO*********************/
+
+footer{
+
+background-color: #666666; 
+
+border-top-style: solid; 
+
+border-top-width: 5px; 
+
+border-top-color: #0CBCB4;
+
+color: white; 
+
+min-height: 55px; 
+
+font-family: Arial, Helvetica, sans-serif;
+
+font-size: 15px; 
+
+text-align: center; 
+
+position: fixed;
+
+left: 0;
+
+bottom: 0;
+
+width: 100%;
+
+padding-top: 15px; 
+
+}
+
+
+
+
+@media screen{
+.text {
+}
+.container {
+}
+}
