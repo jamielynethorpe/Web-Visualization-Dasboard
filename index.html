@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <style>
+         img{ width: auto;
+         height: auto;
+         max-width: 100%;
+         max-height: 100%;}
+      </style>
+      <meta charset="UTF-8">
+      <title>Landing</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--      <link rel="stylesheet" href="style.css">-->
+      <link href="EXstylesheet.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+	   
+      <div class="navigation"style="margin-bottom: 20px">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light col-xl-12">
+            <a class="navbar-brand" href="index.html">Latitude </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>	
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                     <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="Temperature.html">Max Temperature</a>
+                           <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                           <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                           <a class="dropdown-item" href="Windspeed.html">Wind-speed</a>
+<!--                           <div class="dropdown-divider"></div>-->
+                        </div>
+                  </li>
+                  <li class="nav-item ">
+                  <a class="nav-link" href="comparison.html">Comparison </a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
+                  </li>
+               </ul>
+               </div>
+         </nav>
+         </div>
+	   <div class="container">
+    <div class="row">
+       <div class="col-md-7"style= "background-color: white;margin-right:20px;">
+            <h1 class="header"><strong>Summary: Latitude vs. X</strong></h1>
+<!--               </header>-->
+               <section id="introduction">
+               <figure id="main_figure"style="padding:5px;">
+               <img src= "CityLat_temp.png" class="purpose rounded float-left img-thumbnail" >
+               <p>&nbsp &nbsp &nbsp &nbsp The Purpose of this project was to analyze how weather changes as you get closer to the equator.
+                  To accomplish this analysis, we first pull data from  the OpenWeatherMap API to assemble a dataset on over 500
+                  cities.
+               </p>
+               <p>&nbsp &nbsp &nbsp &nbsp After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. lattitude.
+                  Factors we looked at temperature, cloudiness, wind speed, and humidity. This site provides the source data
+                  and visualizations created as part of the analysis, as well as explanations and descriptionsof any trend
+                  and correlations witnessed.
+               </p>
+       </div>
+       <div class="col-md-4"style= "background-color: white;">
+           <h2 class="header">Visualizations</h2>
+        
+       
+		   <div class="row">
+		   
+                  <figure id="main1_figure" style = "width:150px;height:150px;margin-right:10px;">
+                     <a href="maxtemperature.html"><img src="CityLat_temp.png" width="150" height="150" alt=""/></a>
+                  </figure>
+               
+               
+                  <figure id="main2_figure" style = "width:150px;height:150px">
+                     <a href="humidity.html"><img src="Lat_Humidity.png" width="150" height="150" alt=""/></a>
+                     <!--								<div class="col-md-12"></div-->
+                  </figure>
+              
+		   </div>
+          <div class="row"> 
+              
+                  <figure id="main3_figure" style = "width:150px;height:150px;margin-right:10px;">
+                     <a href="cloudiness.html"> <img src="Lat_Cloudiness.png"  style = "width:150px;height:150px" alt=""/> </a>
+                  </figure>
+              
+            
+               
+                  <figure id="main4_figure" style = "width:150px;height:150px">
+                     <a href="windspeed.html">	<img  src="Lat_WindSpeed.png" width="150" height="150" alt=""/> </a>
+               </figure>
+		   </div>
+       </div>
+   </div>
+</div>
+         
+         <form class="form-inline my-2 my-lg-0">
+            <!--        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
+            <!--        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+         </form>
+<!--      </div>-->
+      </nav>
+
+               <!--	   <div class="panel panel-default">-->
+               <!--                    <div class="panel-body">--
+     
+                      
+                  
+         <main class="container2">
+         	<header>
+         -->                    
+      <div class=" col-md-4 ">
+      <main class="container">
+              
+
+      </main>
+     
+      </div class="container">
+      </div>
+<!--      </div>-->
+      
+      
+      <div class= "row" style= "padding-bottom: 30px;">
+		  </div>
+      
+   </body>
+</html>
