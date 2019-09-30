@@ -2,7 +2,7 @@
 
 ##  Data VIsualization:
  https://jamielynethorpe.github.io/Web-Visualization-Dasboard/
- 
+
 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
@@ -19,7 +19,7 @@
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
  
- The final notebook included the follolwing items:
+ The final notebook included the following items:
 
 *  Analysis using a Jupyter notebook.
 * Matplotlib and Pandas plotting libraries.
