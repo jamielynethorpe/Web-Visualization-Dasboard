@@ -1,7 +1,8 @@
 # Weather Analysis Visualization
 
 ##  Data VIsualization:
- https://jamielynethorpe.github.io/Web…
+ https://jamielynethorpe.github.io/Web-Visualization-Dasboard/
+ 
 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
